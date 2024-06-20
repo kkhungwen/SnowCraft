@@ -1,0 +1,122 @@
+{
+    "name": "PlayerInputAction",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "5bb64d85-0198-45a4-945c-6f718bd48c9e",
+            "actions": [
+                {
+                    "name": "PrimaryTouch",
+                    "type": "Button",
+                    "id": "dc6de98d-ebc8-4085-bde8-0c45086ae6a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6f1f13c3-3249-4a47-9728-c2ddde81a4c6",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "InGame",
+            "id": "6eb0546d-bde4-4319-be7c-5786115f8295",
+            "actions": [
+                {
+                    "name": "PrimaryTouch",
+                    "type": "Button",
+                    "id": "979ec74c-06fa-4171-bf98-dc84401e9cae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cd1b4c59-2697-493a-9508-e60bd641e139",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "PrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Cutscene",
+            "id": "19a59201-575d-4a58-9fc2-433a19db02ea",
+            "actions": [
+                {
+                    "name": "PlayCutscene",
+                    "type": "Button",
+                    "id": "722440b0-d4fd-4e8e-a9f8-c1f346289c94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Test",
+                    "type": "Value",
+                    "id": "0c1a077b-d40f-4ca6-a9a9-5c6ee0285f81",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4dcb23c7-3d61-4fc9-ad35-910ec15a1dfa",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "PlayCutscene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6209e2c-597b-43ee-ab69-feaa5530e219",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayCutscene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "TouchScreen",
+            "bindingGroup": "TouchScreen",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

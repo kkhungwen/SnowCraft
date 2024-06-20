@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db30b4c68a4e984d9fa9de03ee1eca4, type: 3}
+  m_Name: Level-100
+  m_EditorClassIdentifier: 
+  preSpawnEnemies:
+  - enemy: {fileID: 6975650230001443611, guid: f5ab36be45f926c4386a04e980909f46, type: 3}
+    spawnTile: {x: 0, y: 0}
+  - enemy: {fileID: 6975650230001443611, guid: f5ab36be45f926c4386a04e980909f46, type: 3}
+    spawnTile: {x: 0, y: 0}
+  preLevelCutscene: {fileID: 11400000, guid: e00f900f669e6ee48a22b3a0980c9f35, type: 2}
+  postLevelCutscene: {fileID: 11400000, guid: e00f900f669e6ee48a22b3a0980c9f35, type: 2}
